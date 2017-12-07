@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2180813181C13D2004BAA8B /* TopKSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2180811181C13D2004BAA8B /* TopKSet.cpp */; };
+		B2D528B716A6F559007BD68C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2D528B616A6F559007BD68C /* main.cpp */; };
+		B2D528B916A6F559007BD68C /* EVERouter.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2D528B816A6F559007BD68C /* EVERouter.1 */; };
+		B2D528C116A708C2007BD68C /* SolarSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2D528BF16A708C2007BD68C /* SolarSystem.cpp */; };
+		B2D528C416A70E0B007BD68C /* SpacePoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2D528C216A70E0B007BD68C /* SpacePoint.cpp */; };
+		B2D528E916A71C4D007BD68C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D528E816A71C4D007BD68C /* SenTestingKit.framework */; };
+		B2D528EB16A71C4D007BD68C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D528EA16A71C4D007BD68C /* Cocoa.framework */; };
+		B2D528F416A71C4D007BD68C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2D528F216A71C4D007BD68C /* InfoPlist.strings */; };
+		B2D528F716A71C4D007BD68C /* Tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = B2D528F616A71C4D007BD68C /* Tests.mm */; };
+		B2D528FC16A71F63007BD68C /* SpacePoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2D528C216A70E0B007BD68C /* SpacePoint.cpp */; };
+		B2D528FF16A739D9007BD68C /* Universe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2D528FD16A739D9007BD68C /* Universe.cpp */; };
+		B2D5290216A87FFA007BD68C /* Route.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2D5290016A87FFA007BD68C /* Route.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B2D528B016A6F559007BD68C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B2D528B916A6F559007BD68C /* EVERouter.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B2180811181C13D2004BAA8B /* TopKSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TopKSet.cpp; sourceTree = "<group>"; };
+		B2180812181C13D2004BAA8B /* TopKSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopKSet.h; sourceTree = "<group>"; };
+		B2D528B216A6F559007BD68C /* EVERouter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EVERouter; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D528B616A6F559007BD68C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B2D528B816A6F559007BD68C /* EVERouter.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EVERouter.1; sourceTree = "<group>"; };
+		B2D528BF16A708C2007BD68C /* SolarSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolarSystem.cpp; sourceTree = "<group>"; };
+		B2D528C016A708C2007BD68C /* SolarSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolarSystem.h; sourceTree = "<group>"; };
+		B2D528C216A70E0B007BD68C /* SpacePoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpacePoint.cpp; sourceTree = "<group>"; };
+		B2D528C316A70E0B007BD68C /* SpacePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpacePoint.h; sourceTree = "<group>"; };
+		B2D528E716A71C4D007BD68C /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D528E816A71C4D007BD68C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2D528EA16A71C4D007BD68C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		B2D528EC16A71C4D007BD68C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B2D528ED16A71C4D007BD68C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B2D528EE16A71C4D007BD68C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2D528F116A71C4D007BD68C /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		B2D528F316A71C4D007BD68C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2D528F516A71C4D007BD68C /* Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tests.h; sourceTree = "<group>"; };
+		B2D528F616A71C4D007BD68C /* Tests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Tests.mm; sourceTree = "<group>"; };
+		B2D528F816A71C4D007BD68C /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		B2D528FD16A739D9007BD68C /* Universe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Universe.cpp; sourceTree = "<group>"; };
+		B2D528FE16A739D9007BD68C /* Universe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Universe.h; sourceTree = "<group>"; };
+		B2D5290016A87FFA007BD68C /* Route.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Route.cpp; sourceTree = "<group>"; };
+		B2D5290116A87FFA007BD68C /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2D528AF16A6F559007BD68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D528E316A71C4D007BD68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D528E916A71C4D007BD68C /* SenTestingKit.framework in Frameworks */,
+				B2D528EB16A71C4D007BD68C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2D528A716A6F559007BD68C = {
+			isa = PBXGroup;
+			children = (
+				B2D528B516A6F559007BD68C /* EVERouter */,
+				B2D528EF16A71C4D007BD68C /* Tests */,
+				B2D528CB16A713B4007BD68C /* Frameworks */,
+				B2D528B316A6F559007BD68C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2D528B316A6F559007BD68C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2D528B216A6F559007BD68C /* EVERouter */,
+				B2D528E716A71C4D007BD68C /* Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2D528B516A6F559007BD68C /* EVERouter */ = {
+			isa = PBXGroup;
+			children = (
+				B2D528B616A6F559007BD68C /* main.cpp */,
+				B2D528B816A6F559007BD68C /* EVERouter.1 */,
+				B2D528BF16A708C2007BD68C /* SolarSystem.cpp */,
+				B2D528C016A708C2007BD68C /* SolarSystem.h */,
+				B2D528C216A70E0B007BD68C /* SpacePoint.cpp */,
+				B2D528C316A70E0B007BD68C /* SpacePoint.h */,
+				B2D528FD16A739D9007BD68C /* Universe.cpp */,
+				B2D528FE16A739D9007BD68C /* Universe.h */,
+				B2D5290016A87FFA007BD68C /* Route.cpp */,
+				B2D5290116A87FFA007BD68C /* Route.h */,
+				B2180811181C13D2004BAA8B /* TopKSet.cpp */,
+				B2180812181C13D2004BAA8B /* TopKSet.h */,
+			);
+			path = EVERouter;
+			sourceTree = "<group>";
+		};
+		B2D528CB16A713B4007BD68C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2D528E816A71C4D007BD68C /* SenTestingKit.framework */,
+				B2D528EA16A71C4D007BD68C /* Cocoa.framework */,
+				B2D528D016A713B4007BD68C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2D528D016A713B4007BD68C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2D528EC16A71C4D007BD68C /* AppKit.framework */,
+				B2D528ED16A71C4D007BD68C /* CoreData.framework */,
+				B2D528EE16A71C4D007BD68C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B2D528EF16A71C4D007BD68C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B2D528F516A71C4D007BD68C /* Tests.h */,
+				B2D528F616A71C4D007BD68C /* Tests.mm */,
+				B2D528F016A71C4D007BD68C /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		B2D528F016A71C4D007BD68C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2D528F116A71C4D007BD68C /* Tests-Info.plist */,
+				B2D528F216A71C4D007BD68C /* InfoPlist.strings */,
+				B2D528F816A71C4D007BD68C /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2D528B116A6F559007BD68C /* EVERouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2D528BC16A6F559007BD68C /* Build configuration list for PBXNativeTarget "EVERouter" */;
+			buildPhases = (
+				B2D528AE16A6F559007BD68C /* Sources */,
+				B2D528AF16A6F559007BD68C /* Frameworks */,
+				B2D528B016A6F559007BD68C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EVERouter;
+			productName = EVERouter;
+			productReference = B2D528B216A6F559007BD68C /* EVERouter */;
+			productType = "com.apple.product-type.tool";
+		};
+		B2D528E616A71C4D007BD68C /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2D528F916A71C4D007BD68C /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				B2D528E216A71C4D007BD68C /* Sources */,
+				B2D528E316A71C4D007BD68C /* Frameworks */,
+				B2D528E416A71C4D007BD68C /* Resources */,
+				B2D528E516A71C4D007BD68C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = B2D528E716A71C4D007BD68C /* Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2D528A916A6F559007BD68C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Lars Kroll";
+			};
+			buildConfigurationList = B2D528AC16A6F559007BD68C /* Build configuration list for PBXProject "EVERouter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2D528A716A6F559007BD68C;
+			productRefGroup = B2D528B316A6F559007BD68C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2D528B116A6F559007BD68C /* EVERouter */,
+				B2D528E616A71C4D007BD68C /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2D528E416A71C4D007BD68C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D528F416A71C4D007BD68C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2D528E516A71C4D007BD68C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2D528AE16A6F559007BD68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D528B716A6F559007BD68C /* main.cpp in Sources */,
+				B2D528C116A708C2007BD68C /* SolarSystem.cpp in Sources */,
+				B2180813181C13D2004BAA8B /* TopKSet.cpp in Sources */,
+				B2D528C416A70E0B007BD68C /* SpacePoint.cpp in Sources */,
+				B2D528FF16A739D9007BD68C /* Universe.cpp in Sources */,
+				B2D5290216A87FFA007BD68C /* Route.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D528E216A71C4D007BD68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2D528F716A71C4D007BD68C /* Tests.mm in Sources */,
+				B2D528FC16A71F63007BD68C /* SpacePoint.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2D528F216A71C4D007BD68C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2D528F316A71C4D007BD68C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2D528BA16A6F559007BD68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Users/sario/mysql/mysql-connector-c-64bit/include/**";
+				LIBRARY_SEARCH_PATHS = "/Users/sario/mysql/mysql-connector-c-64bit/lib/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lmysqlclient",
+					"-lm",
+					"-lz",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B2D528BB16A6F559007BD68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Users/sario/mysql/mysql-connector-c-64bit/include/**";
+				LIBRARY_SEARCH_PATHS = "/Users/sario/mysql/mysql-connector-c-64bit/lib/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = (
+					"-lmysqlclient",
+					"-lm",
+					"-lz",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B2D528BD16A6F559007BD68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/Users/sario/mysql/mysql-connector-c++-64bit/include/**",
+					"/Users/sario/mysql/mysql-connector-c-64bit/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/sario/mysql/mysql-connector-c++-64bit/lib/**",
+					"/Users/sario/mysql/mysql-connector-c-64bit/lib/**",
+				);
+				OTHER_LDFLAGS = (
+					"-lmysqlcppconn",
+					"-lmysqlclient_r",
+					"-lmysqlclient",
+					"-lm",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2D528BE16A6F559007BD68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/Users/sario/mysql/mysql-connector-c++-64bit/include/**",
+					"/Users/sario/mysql/mysql-connector-c-64bit/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/sario/mysql/mysql-connector-c++-64bit/lib/**",
+					"/Users/sario/mysql/mysql-connector-c-64bit/lib/**",
+				);
+				OTHER_LDFLAGS = (
+					"-lmysqlcppconn",
+					"-lmysqlclient_r",
+					"-lmysqlclient",
+					"-lm",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2D528FA16A71C4D007BD68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B2D528FB16A71C4D007BD68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2D528AC16A6F559007BD68C /* Build configuration list for PBXProject "EVERouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D528BA16A6F559007BD68C /* Debug */,
+				B2D528BB16A6F559007BD68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2D528BC16A6F559007BD68C /* Build configuration list for PBXNativeTarget "EVERouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D528BD16A6F559007BD68C /* Debug */,
+				B2D528BE16A6F559007BD68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2D528F916A71C4D007BD68C /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2D528FA16A71C4D007BD68C /* Debug */,
+				B2D528FB16A71C4D007BD68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2D528A916A6F559007BD68C /* Project object */;
+}
